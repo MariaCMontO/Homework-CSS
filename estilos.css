@@ -1,0 +1,83 @@
+.fondo {
+    background-color: white;
+}
+.tituloprincipal {
+    font-size: 3vw;    
+    color: #1b7190;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.titulosecundario {
+    font: size 2vw;
+    color: black;
+}
+.tituloinicio {
+    font-size: 2.5vw;
+    color: #1b7190;
+    
+}
+
+.centrar {
+    margin: auto;
+    width: fit-content;
+
+}
+
+.imagen {
+    width: 40vw;
+    height: 40vw;
+}
+
+#contenedorimagen {
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    background-color: beige;
+    border:2px rgb(225, 225, 202) solid;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#pseudoimagen1:hover {
+    width:fit-content;
+    background-color: rgb(245, 245, 200);
+    
+}
+
+#pseudoimagen2:hover {
+    width:fit-content;
+    background-color:rgb(245, 245, 200);
+    
+}
+#pseudoselector:hover {
+    font-size: 1em;
+    color: hsl(196, 65%, 49%);
+
+}
+#recuadros {
+    height: 10vw;
+    background-color: beige ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.tituloproductos {
+    font-size: 2.5vw;
+    color: #1b7190;
+}
+
+.contenedorproductos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
